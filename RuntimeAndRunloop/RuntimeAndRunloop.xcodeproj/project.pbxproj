@@ -15,6 +15,7 @@
 		33AC5DDC20876A8500C509CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DDB20876A8500C509CA /* main.m */; };
 		33AC5DE620876A8500C509CA /* RuntimeAndRunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DE520876A8500C509CA /* RuntimeAndRunloopTests.m */; };
 		33AC5DF120876A8500C509CA /* RuntimeAndRunloopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DF020876A8500C509CA /* RuntimeAndRunloopUITests.m */; };
+		33AC5E032087719800C509CA /* UIButton+ButtonBlockCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E022087719800C509CA /* UIButton+ButtonBlockCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33AC5DEC20876A8500C509CA /* RuntimeAndRunloopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeAndRunloopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC5DF020876A8500C509CA /* RuntimeAndRunloopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAndRunloopUITests.m; sourceTree = "<group>"; };
 		33AC5DF220876A8500C509CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AC5E012087719700C509CA /* UIButton+ButtonBlockCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonBlockCategory.h"; sourceTree = "<group>"; };
+		33AC5E022087719800C509CA /* UIButton+ButtonBlockCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonBlockCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				33AC5DCD20876A8300C509CA /* AppDelegate.m */,
 				33AC5DCF20876A8300C509CA /* ViewController.h */,
 				33AC5DD020876A8300C509CA /* ViewController.m */,
+				33AC5E012087719700C509CA /* UIButton+ButtonBlockCategory.h */,
+				33AC5E022087719800C509CA /* UIButton+ButtonBlockCategory.m */,
 				33AC5DD220876A8300C509CA /* Main.storyboard */,
 				33AC5DD520876A8500C509CA /* Assets.xcassets */,
 				33AC5DD720876A8500C509CA /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				33AC5DD120876A8300C509CA /* ViewController.m in Sources */,
 				33AC5DDC20876A8500C509CA /* main.m in Sources */,
 				33AC5DCE20876A8300C509CA /* AppDelegate.m in Sources */,
+				33AC5E032087719800C509CA /* UIButton+ButtonBlockCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
