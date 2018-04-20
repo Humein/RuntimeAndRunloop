@@ -10,7 +10,6 @@
 #import <objc/runtime.h>
 @implementation UITableViewCell (AnimationType)
 YYSYNTH_DYNAMIC_PROPERTY_CTYPE(isDisplayed, setDisplayed, BOOL)
-
 - (void)tableView:(UITableView *)tableView forRowAtIndexPath:(NSIndexPath *)indexPath animationStyle:(UITableViewCellDisplayAnimationStyle)animationStyle {
     if (!self.isDisplayed) {
         switch (animationStyle) {

@@ -7,6 +7,8 @@
 //
 typedef void (^btnBlock)(id sender);
 #import <UIKit/UIKit.h>
+
+#warning 1-添加属性
 @interface UIButton (ButtonBlockCategory)
 @property (nonatomic, copy) btnBlock blcok;
 + (instancetype)ZTK_fatoryButtonWithFrame:(CGRect)frame

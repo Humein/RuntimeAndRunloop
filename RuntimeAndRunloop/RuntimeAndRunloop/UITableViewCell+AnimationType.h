@@ -24,6 +24,20 @@ return cValue; \
 }
 #endif
 
+
+#ifndef YYSYNTH_DYNAMIC_PROPERTY_OBJECT
+#define YYSYNTH_DYNAMIC_PROPERTY_OBJECT(_getter_, _setter_, _association_, _type_) \
+- (void)_setter_ : (_type_)object { \
+[self willChangeValueForKey:@#_getter_]; \
+objc_setAssociatedObject(self, _cmd, object, OBJC_ASSOCIATION_ ## _association_); \
+[self didChangeValueForKey:@#_getter_]; \
+} \
+- (_type_)_getter_ { \
+return objc_getAssociatedObject(self, @selector(_setter_:)); \
+}
+#endif
+
+
 typedef NS_ENUM(NSInteger, UITableViewCellDisplayAnimationStyle) {
     UITableViewCellDisplayAnimationTop = 0, // line by line
     UITableViewCellDisplayAnimationLeft = 1,
@@ -36,6 +50,7 @@ typedef NS_ENUM(NSInteger, UITableViewCellDisplayAnimationStyle) {
     UITableViewCellDisplayAnimationFadeIn = 8, // fade in line by line
     UITableViewCellDisplayAnimationFadeInTogether = 9, // fade in together
 };
+#warning 1-添加属性
 
 @interface UITableViewCell (AnimationType)
 @property (nonatomic, assign, getter=isDisplayed) BOOL displayed;
