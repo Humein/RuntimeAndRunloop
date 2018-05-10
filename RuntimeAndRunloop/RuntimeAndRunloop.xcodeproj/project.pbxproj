@@ -18,6 +18,7 @@
 		33AC5E032087719800C509CA /* UIButton+ButtonBlockCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E022087719800C509CA /* UIButton+ButtonBlockCategory.m */; };
 		33AC5E062087736B00C509CA /* UITableViewCell+AnimationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E052087736B00C509CA /* UITableViewCell+AnimationType.m */; };
 		33AC5E0A2088A0CE00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E092088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m */; };
+		33AC5E102089F9DC00C509CA /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E0F2089F9DC00C509CA /* RunLoopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		33AC5E052087736B00C509CA /* UITableViewCell+AnimationType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+AnimationType.m"; sourceTree = "<group>"; };
 		33AC5E082088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewHitEdgeInsetsSwizze.h"; sourceTree = "<group>"; };
 		33AC5E092088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewHitEdgeInsetsSwizze.m"; sourceTree = "<group>"; };
+		33AC5E0E2089F9DC00C509CA /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		33AC5E0F2089F9DC00C509CA /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				33AC5DCD20876A8300C509CA /* AppDelegate.m */,
 				33AC5DCF20876A8300C509CA /* ViewController.h */,
 				33AC5DD020876A8300C509CA /* ViewController.m */,
+				33AC5E0E2089F9DC00C509CA /* RunLoopViewController.h */,
+				33AC5E0F2089F9DC00C509CA /* RunLoopViewController.m */,
 				33AC5E012087719700C509CA /* UIButton+ButtonBlockCategory.h */,
 				33AC5E022087719800C509CA /* UIButton+ButtonBlockCategory.m */,
 				33AC5E042087736B00C509CA /* UITableViewCell+AnimationType.h */,
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AC5E102089F9DC00C509CA /* RunLoopViewController.m in Sources */,
 				33AC5DD120876A8300C509CA /* ViewController.m in Sources */,
 				33AC5DDC20876A8500C509CA /* main.m in Sources */,
 				33AC5E0A2088A0CE00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m in Sources */,
