@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3373865620BBEC1100F7A140 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */; };
 		33AC5DCE20876A8300C509CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DCD20876A8300C509CA /* AppDelegate.m */; };
 		33AC5DD120876A8300C509CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DD020876A8300C509CA /* ViewController.m */; };
 		33AC5DD420876A8300C509CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AC5DD220876A8300C509CA /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		33AC5E062087736B00C509CA /* UITableViewCell+AnimationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E052087736B00C509CA /* UITableViewCell+AnimationType.m */; };
 		33AC5E0A2088A0CE00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E092088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m */; };
 		33AC5E102089F9DC00C509CA /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5E0F2089F9DC00C509CA /* RunLoopViewController.m */; };
+		91D4D9DFF9B960B0E1357D8D /* libPods-RuntimeAndRunloop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000FAC8CF7B5AD3D4C2C312C /* libPods-RuntimeAndRunloop.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000FAC8CF7B5AD3D4C2C312C /* libPods-RuntimeAndRunloop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeAndRunloop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C565679135D5BDB7083A61B /* Pods-RuntimeAndRunloop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeAndRunloop.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeAndRunloop/Pods-RuntimeAndRunloop.release.xcconfig"; sourceTree = "<group>"; };
+		2B7CC9DAF6CCF7CA72BA0523 /* Pods-RuntimeAndRunloop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeAndRunloop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeAndRunloop/Pods-RuntimeAndRunloop.debug.xcconfig"; sourceTree = "<group>"; };
+		3373865420BBEC1100F7A140 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		33AC5DC920876A8300C509CA /* RuntimeAndRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeAndRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC5DCC20876A8300C509CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33AC5DCD20876A8300C509CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D4D9DFF9B960B0E1357D8D /* libPods-RuntimeAndRunloop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29D037A9EAD8669AE498F24A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CC9DAF6CCF7CA72BA0523 /* Pods-RuntimeAndRunloop.debug.xcconfig */,
+				1C565679135D5BDB7083A61B /* Pods-RuntimeAndRunloop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33AC5DC020876A8300C509CA = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +114,8 @@
 				33AC5DE420876A8500C509CA /* RuntimeAndRunloopTests */,
 				33AC5DEF20876A8500C509CA /* RuntimeAndRunloopUITests */,
 				33AC5DCA20876A8300C509CA /* Products */,
+				29D037A9EAD8669AE498F24A /* Pods */,
+				8E3479BB9E130A0D9C77150F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +144,8 @@
 				33AC5E052087736B00C509CA /* UITableViewCell+AnimationType.m */,
 				33AC5E082088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.h */,
 				33AC5E092088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m */,
+				3373865420BBEC1100F7A140 /* UIScrollView+MJRefresh.h */,
+				3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */,
 				33AC5DD220876A8300C509CA /* Main.storyboard */,
 				33AC5DD520876A8500C509CA /* Assets.xcassets */,
 				33AC5DD720876A8500C509CA /* LaunchScreen.storyboard */,
@@ -152,6 +173,14 @@
 			path = RuntimeAndRunloopUITests;
 			sourceTree = "<group>";
 		};
+		8E3479BB9E130A0D9C77150F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000FAC8CF7B5AD3D4C2C312C /* libPods-RuntimeAndRunloop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AC5DF520876A8500C509CA /* Build configuration list for PBXNativeTarget "RuntimeAndRunloop" */;
 			buildPhases = (
+				10BF7BA1672C4557BF7E547B /* [CP] Check Pods Manifest.lock */,
 				33AC5DC520876A8300C509CA /* Sources */,
 				33AC5DC620876A8300C509CA /* Frameworks */,
 				33AC5DC720876A8300C509CA /* Resources */,
+				E9F124A670F00638BF390001 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +308,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10BF7BA1672C4557BF7E547B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RuntimeAndRunloop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F124A670F00638BF390001 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RuntimeAndRunloop/Pods-RuntimeAndRunloop-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuntimeAndRunloop/Pods-RuntimeAndRunloop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33AC5DC520876A8300C509CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,6 +356,7 @@
 				33AC5DD120876A8300C509CA /* ViewController.m in Sources */,
 				33AC5DDC20876A8500C509CA /* main.m in Sources */,
 				33AC5E0A2088A0CE00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m in Sources */,
+				3373865620BBEC1100F7A140 /* UIScrollView+MJRefresh.m in Sources */,
 				33AC5DCE20876A8300C509CA /* AppDelegate.m in Sources */,
 				33AC5E032087719800C509CA /* UIButton+ButtonBlockCategory.m in Sources */,
 				33AC5E062087736B00C509CA /* UITableViewCell+AnimationType.m in Sources */,
@@ -455,6 +526,7 @@
 		};
 		33AC5DF620876A8500C509CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7CC9DAF6CCF7CA72BA0523 /* Pods-RuntimeAndRunloop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +544,7 @@
 		};
 		33AC5DF720876A8500C509CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C565679135D5BDB7083A61B /* Pods-RuntimeAndRunloop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
