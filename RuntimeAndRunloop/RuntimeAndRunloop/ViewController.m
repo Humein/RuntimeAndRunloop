@@ -18,10 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton *blockBtn = [UIButton ZTK_fatoryButtonWithFrame:CGRectMake(50, 60, 44, 44) WithTitle:@"你好" WithTitleColor:[UIColor redColor] Withfont:11 Withimage:nil WithselImage:nil toSuperView:self.view WithClick:^(id sender) {
+    UIButton *blockBtn = [UIButton ZTK_fatoryButtonWithFrame:CGRectZero WithTitle:@"你好" WithTitleColor:[UIColor redColor] Withfont:11 Withimage:nil WithselImage:nil toSuperView:self.view WithClick:^(id sender) {
 //        NSLog(@"blockBtn====%@",NSStringFromClass([weakBlockBtn class]));
         
     }];
+    blockBtn.backgroundColor = [UIColor grayColor];
     blockBtn.hitTestEdgeInsets = UIEdgeInsetsMake(100, 100, 100, 100);
     __weak typeof(blockBtn) weakBlockBtn = blockBtn;
     __weak typeof(self) weakSelf = self;

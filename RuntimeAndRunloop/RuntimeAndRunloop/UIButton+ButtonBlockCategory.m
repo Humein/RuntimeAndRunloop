@@ -17,7 +17,9 @@ static const char associatedButtonkey;
                             WithselImage:(id)selImage
                              toSuperView:(UIView *)superView
                                WithClick:(btnBlock)block{
-    UIButton *btn = [[UIButton alloc] initWithFrame:frame];
+//    UIButton *btn = [[UIButton alloc] initWithFrame:frame];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+
     [superView addSubview:btn];
     
     btn.titleLabel.font = [UIFont systemFontOfSize:font];

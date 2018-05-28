@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3373865620BBEC1100F7A140 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */; };
+		3373865920BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373865820BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.m */; };
 		33AC5DCE20876A8300C509CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DCD20876A8300C509CA /* AppDelegate.m */; };
 		33AC5DD120876A8300C509CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AC5DD020876A8300C509CA /* ViewController.m */; };
 		33AC5DD420876A8300C509CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AC5DD220876A8300C509CA /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 		2B7CC9DAF6CCF7CA72BA0523 /* Pods-RuntimeAndRunloop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeAndRunloop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeAndRunloop/Pods-RuntimeAndRunloop.debug.xcconfig"; sourceTree = "<group>"; };
 		3373865420BBEC1100F7A140 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
 		3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		3373865720BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+TapGestureforceHit.h"; sourceTree = "<group>"; };
+		3373865820BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+TapGestureforceHit.m"; sourceTree = "<group>"; };
 		33AC5DC920876A8300C509CA /* RuntimeAndRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeAndRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC5DCC20876A8300C509CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33AC5DCD20876A8300C509CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				33AC5E092088A0CD00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m */,
 				3373865420BBEC1100F7A140 /* UIScrollView+MJRefresh.h */,
 				3373865520BBEC1100F7A140 /* UIScrollView+MJRefresh.m */,
+				3373865720BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.h */,
+				3373865820BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.m */,
 				33AC5DD220876A8300C509CA /* Main.storyboard */,
 				33AC5DD520876A8500C509CA /* Assets.xcassets */,
 				33AC5DD720876A8500C509CA /* LaunchScreen.storyboard */,
@@ -357,6 +362,7 @@
 				33AC5DDC20876A8500C509CA /* main.m in Sources */,
 				33AC5E0A2088A0CE00C509CA /* UIView+ViewHitEdgeInsetsSwizze.m in Sources */,
 				3373865620BBEC1100F7A140 /* UIScrollView+MJRefresh.m in Sources */,
+				3373865920BBF5F700F7A140 /* UITapGestureRecognizer+TapGestureforceHit.m in Sources */,
 				33AC5DCE20876A8300C509CA /* AppDelegate.m in Sources */,
 				33AC5E032087719800C509CA /* UIButton+ButtonBlockCategory.m in Sources */,
 				33AC5E062087736B00C509CA /* UITableViewCell+AnimationType.m in Sources */,
